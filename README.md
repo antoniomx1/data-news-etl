@@ -52,18 +52,18 @@ El sistema opera bajo una arquitectura de flujo de datos secuencial y serverless
 ```bash
 git clone [https://github.com/antoniomx1/data-news-etl.git](https://github.com/antoniomx1/data-news-etl.git)
 cd data-news-etl
-
+```
 **2. Instalar dependencias:**
 ```bash
 pip install -r requirements.txt
-
+```
 
 **3. Configurar Variables de Entorno (.env): Crea un archivo .env en la raíz con las siguientes credenciales:**
 ```bash
 GEMINI_API_KEY="tu_api_key_de_google"
 TELEGRAM_BOT_TOKEN="tu_token_de_telegram"
 TELEGRAM_CHAT_ID="tu_id_de_usuario"
-
+```
 **4. Ejecutar el Pipeline (Manual):**
 ```bash
 python src/main.py
